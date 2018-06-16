@@ -106,3 +106,7 @@ lsmod | grep nanqinlang
 # 返回值（类似于）：
 tcp_nanqinlang    6053  18
 ```
+
+
+## 相关 issue
+https://github.com/nanqinlang/sometimesnaive.org/issues/63
