@@ -1,14 +1,14 @@
 # OpenVZ 魔改 BBR - lkl-haproxy 一键脚本
 
 ## 概述
-这里是 [tcp_nanqinlang](https://github.com/tcp-nanqinlang/wiki/general) 的 `lkl-haproxy` 分支。
+这里是 [tcp_nanqinlang](https://github.com/tcp-nanqinlang/wiki/wiki/general) 的 `lkl-haproxy` 分支。
 
 本项目 Github 地址： https://github.com/tcp-nanqinlang/lkl-haproxy
 
 
 ## 开始使用
 以下适用于 Debian 8+ 环境：
-```language-bash
+```bash
 # Debian 8+
 # 64 bit
 # ldd > = 2.14
@@ -18,7 +18,7 @@ bash tcp_nanqinlang-haproxy-debian.sh
 ```
 
 以下适用于 CentOS 7 环境：
-```language-bash
+```bash
 # CentOS 7
 # 64 bit
 # ldd > = 2.14
