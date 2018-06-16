@@ -1,7 +1,7 @@
 # OpenVZ 魔改 BBR - lkl-rinetd 一键脚本
 
 ## 概述
-这里是 [tcp_nanqinlang](https://github.com/tcp-nanqinlang/wiki/general) 的 `lkl-rinetd` 分支。
+这里是 [tcp_nanqinlang](https://github.com/tcp-nanqinlang/wiki/wiki/general) 的 `lkl-rinetd` 分支。
 
 本项目 Github 地址： https://github.com/tcp-nanqinlang/lkl-rinetd
 
@@ -15,20 +15,20 @@
 
 ### Debian or Ubuntu
 适用于 `单网卡（单 IP）` 服务器：
-```language-bash
+```bash
 wget https://github.com/tcp-nanqinlang/lkl-rinetd/releases/download/1.1.0/tcp_nanqinlang-rinetd-debianorubuntu.sh
 bash tcp_nanqinlang-rinetd-debianorubuntu.sh
 ```
 
 适用于 `多网卡（多 IP）` 服务器，会为所有网卡（所有 IP）提供加速：
-```language-bash
+```bash
 wget https://github.com/tcp-nanqinlang/lkl-rinetd/releases/download/1.1.0/tcp_nanqinlang-rinetd-debianorubuntu-multiNIC.sh
 bash tcp_nanqinlang-rinetd-debianorubuntu-multiNIC.sh
 ```
 
 ### CentOS 7
 和上面一样，也分 单网卡 和 多网卡 版本：
-```language-bash
+```bash
 # 单网卡
 wget https://github.com/tcp-nanqinlang/lkl-rinetd/releases/download/1.1.0/tcp_nanqinlang-rinetd-centos.sh
 bash tcp_nanqinlang-rinetd-centos.sh
