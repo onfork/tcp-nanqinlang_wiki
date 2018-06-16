@@ -49,3 +49,7 @@ bash tcp_nanqinlang-haproxy-centos.sh
 
 ### 卸载 lkl-haproxy
 运行此命令会卸载 haproxy、删除 /home/tcp_nanqinlang、移除 rc.local 开机自启项。稍后请自行移除 `iptables` 相关规则。
+
+
+## 相关 issue
+https://github.com/nanqinlang/sometimesnaive.org/issues/37
