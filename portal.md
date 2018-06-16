@@ -7,17 +7,17 @@
 魔改 BBR 一键脚本 for Debian & CentOS  
 适用于 `KVM` 环境  
 需要更换 Linux 内核  
-https://github.com/tcp-nanqinlang/wiki/general
+https://github.com/tcp-nanqinlang/wiki/wiki/general
 
 OpenVZ 魔改 BBR - LKL 一键脚本  
 适用于 `OpenVZ` 环境  
 使用 `Haproxy` 进行转发  
-https://github.com/tcp-nanqinlang/wiki/lkl-haproxy
+https://github.com/tcp-nanqinlang/wiki/wiki/lkl-haproxy
 
 OpenVZ 魔改 BBR - Rinetd 一键脚本  
 适用于 `OpenVZ` 环境  
 使用 `Rinetd` 进行转发  
-https://github.com/tcp-nanqinlang/wiki/lkl-rinetd
+https://github.com/tcp-nanqinlang/wiki/wiki/lkl-rinetd
 
 
 ## Github 部分
