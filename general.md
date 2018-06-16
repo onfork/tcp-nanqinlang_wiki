@@ -82,3 +82,7 @@ bash tcp_nanqinlang-1.3.2.sh
 以下是 Debian or CentOS 的手动安装的教程：
 - https://github.com/tcp-nanqinlang/wiki/manual-debian
 - https://github.com/tcp-nanqinlang/wiki/manual-centos
+
+
+## 相关 issue
+https://github.com/nanqinlang/sometimesnaive.org/issues/6
