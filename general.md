@@ -5,7 +5,7 @@
 
 此文所述版本，仅适用于 `KVM` 的 Debian 7+ (32/64 bit) 或 CentOS 6+ (64 bit)。
 
-OpenVZ 请右转 [lkl-haproxy](https://github.com/tcp-nanqinlang/wiki/lkl-haproxy) 或 [lkl-rinetd](https://github.com/tcp-nanqinlang/wiki/lkl-rinetd) 分支。
+OpenVZ 请右转 [lkl-haproxy](https://github.com/tcp-nanqinlang/wiki/wiki/lkl-haproxy) 或 [lkl-rinetd](https://github.com/tcp-nanqinlang/wiki/wiki/lkl-rinetd) 分支。
 
 BBR 是出自谷歌员工之手的应用于 Linux 内核中的拥塞控制技术。关于拥塞控制技术，可以参看我之前的一篇帖子： [也谈TCP拥塞控制技术 与BBR的加速原理](https://sometimesnaive.org/article/8)
 
@@ -14,7 +14,7 @@ BBR 是出自谷歌员工之手的应用于 Linux 内核中的拥塞控制技术
 
 ## 开始使用
 这个是 `新手简装` 版本，只需 `运行脚本第一项+重启+运行脚本第二项`。一般用户只需使用此版本，并建议使用该版本。此版本不需要编译的过程，直接安装 v4.10.2 内核。
-```language-bash
+```bash
 # Debian 7+
 # fool
 wget https://github.com/tcp-nanqinlang/general/releases/download/3.4.2.1/tcp_nanqinlang-fool-1.3.0.sh
@@ -22,7 +22,7 @@ bash tcp_nanqinlang-fool-1.3.0.sh
 ```
 
 这个是 `进阶` 版本。提供自定义内核版本功能，只建议有`用户自己指定安装的内核的版本`需求的用户使用，例如你想安装 v4.12.10 版本的内核，就需要使用这个版本。目前此版本脚本提供 linux kernel `v4.9.3 ~ v4.14.32` 支持。
-```language-bash
+```bash
 # Debian 7+
 # pro
 wget https://github.com/tcp-nanqinlang/general/releases/download/3.4.2.1/tcp_nanqinlang-pro-3.4.2.1.sh
@@ -30,7 +30,7 @@ bash tcp_nanqinlang-pro-3.4.2.1.sh
 ```
 
 这个是 `CentOS` 平台的版本，仍未确定为正式版，请勿在重要环境使用。
-```language-bash
+```bash
 # CentOS 6/7
 # only 64 bit
 wget https://raw.githubusercontent.com/tcp-nanqinlang/general/master/General/CentOS/bash/tcp_nanqinlang-1.3.2.sh
@@ -80,8 +80,8 @@ bash tcp_nanqinlang-1.3.2.sh
 
 ## 手动教程
 以下是 Debian or CentOS 的手动安装的教程：
-- https://github.com/tcp-nanqinlang/wiki/manual-debian
-- https://github.com/tcp-nanqinlang/wiki/manual-centos
+- https://github.com/tcp-nanqinlang/wiki/wiki/manual-debian
+- https://github.com/tcp-nanqinlang/wiki/wiki/manual-centos
 
 
 ## 相关 issue
