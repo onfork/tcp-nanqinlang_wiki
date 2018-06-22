@@ -35,14 +35,14 @@ yum remove -y “内核名”
 2.使用以下命令安装新内核（linux-devel-4.12.10 和 linux-headers-4.12.10）：
 ```bash
 # CentOS 6
-wget https://raw.githubusercontent.com/nanqinlang/CentOS-kernel/master/kernel-ml-4.12.10-1.el6.elrepo.x86_64.rpm && yum install -y kernel-ml-devel-4.12.10-1.el6.elrepo.x86_64.rpm
+wget https://raw.githubusercontent.com/nanqinlang/CentOS-kernel/master/kernel-ml-4.12.10-1.el6.elrepo.x86_64.rpm && yum install -y kernel-ml-4.12.10-1.el6.elrepo.x86_64.rpm
 wget https://raw.githubusercontent.com/nanqinlang/CentOS-kernel/master/kernel-ml-devel-4.12.10-1.el6.elrepo.x86_64.rpm && yum install -y kernel-ml-devel-4.12.10-1.el6.elrepo.x86_64.rpm
 wget https://raw.githubusercontent.com/nanqinlang/CentOS-kernel/master/kernel-ml-headers-4.12.10-1.el6.elrepo.x86_64.rpm && yum  install -y kernel-ml-headers-4.12.10-1.el6.elrepo.x86_64.rpm
 sed -i '/default=/d' /boot/grub/grub.conf && echo -e "\ndefault=0\c" >> /boot/grub/grub.conf
 
 # CentOS 7
-wget https://raw.githubusercontent.com/nanqinlang/CentOS-kernel/master/kernel-ml-4.12.10-1.el7.elrepo.x86_64.rpm && yum install -y kernel-ml-devel-4.12.10-1.el7.elrepo.x86_64.rpm
-wget https://raw.githubusercontent.com/nanqinlang/CentOS-kernel/master/kernel-ml-devel-4.12.10-1.el7.elrepo.x86_64.rpm && yum install -y kernel-ml-devel-4.12.10-1.el7.elrepo.x86_64.rpm
+wget https://raw.githubusercontent.com/nanqinlang/CentOS-kernel/master/kernel-ml-4.12.10-1.el7.elrepo.x86_64.rpm && yum install -y kernel-ml-4.12.10-1.el7.elrepo.x86_64.rpm
+wget https://raw.githubusercontent.com/nanqinlang/CentOS-kernel/master/kernel-ml-devel-4.12.10-1.el7.elrepo.x86_64.rpm && yum install -y kernel-ml-devel-4.12.10-1.el7.elrepo.x86_64.rpm 
 wget https://raw.githubusercontent.com/nanqinlang/CentOS-kernel/master/kernel-ml-headers-4.12.10-1.el7.elrepo.x86_64.rpm && yum  install -y kernel-ml-headers-4.12.10-1.el7.elrepo.x86_64.rpm
 grub2-mkconfig -o /boot/grub2/grub.cfg && grub2-set-default 0
 ```
@@ -75,8 +75,8 @@ linux-kernel-ml-headers-4.12.10-1
 ```bash
 yum groupinstall -y "Development Tools"
 
-wget https://raw.githubusercontent.com/nanqinlang-tcp/tcp_nanqinlang/General/CentOS/source/tcp_nanqinlang.c
-wget -O Makefile https://raw.githubusercontent.com/nanqinlang-tcp/tcp_nanqinlang/master/Makefile/Makefile-CentOS
+wget https://raw.githubusercontent.com/tcp-nanqinlang/general/master/General/CentOS/source/tcp_nanqinlang.c
+wget -O Makefile https://raw.githubusercontent.com/tcp-nanqinlang/general/master/Makefile/Makefile-CentOS
 make && make install
 
 sed -i '/net\.ipv4\.tcp_congestion_control/d' /etc/sysctl.conf
