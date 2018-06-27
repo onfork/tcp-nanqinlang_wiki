@@ -13,7 +13,7 @@ https://github.com/tcp-nanqinlang/wiki/wiki/lkl-haproxy
 https://github.com/tcp-nanqinlang/wiki/wiki/lkl-rinetd
 
 ## 手动教程 for KVM
-https://github.com/tcp-nanqinlang/wiki/wiki/manual-centos
+https://github.com/tcp-nanqinlang/wiki/wiki/manual-centos  
 https://github.com/tcp-nanqinlang/wiki/wiki/manual-debian
 
 ## 打造你自己的 bbr 魔改
