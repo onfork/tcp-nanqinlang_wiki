@@ -26,3 +26,20 @@ https://github.com/tcp-nanqinlang/general/tree/master/General/Debian/source
 ## make install
 然后就是编译 bbr 模块并安装，过程不多说了，参考这个 readme：  
 https://github.com/tcp-nanqinlang/tested/blob/master/readme.md
+
+
+## 其它资料
+你可以在以下 wiki 集中找到实现本文所述目的的所有资料：  
+https://github.com/tcp-nanqinlang/wiki/wiki/
+
+以及，实在不懂的，自己要会先去用搜索引擎，这也是对被你提问的人的最基本尊重
+
+
+## 不会再有更新了
+[tcp-nanqinlang](https://github.com/tcp-nanqinlang) 这个魔改 bbr 项目我维护快满一周年了（不信的自己去翻 commit 记录。first commit 2017.07.12），没有收获到什么，且时间长了都是会腻的。没有催生出什么技术（别说探讨了，感兴趣的人都没有），倒是说不定被拿来干了一堆坏事。
+
+不会再有更新了。以后不会再有更新，也不会再有 bug 修复，新功能增加也是不可能的。
+
+最后一次做一位好人。
+
+以上。
